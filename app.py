@@ -5,7 +5,6 @@ from linebot.models import MessageEvent, TextMessage, TextSendMessage
 
 import json
 import PIL.Image
-import textwrap
 import configparser
 import google.generativeai as genai
 

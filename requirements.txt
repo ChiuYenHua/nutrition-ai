@@ -1,5 +1,7 @@
 gunicorn
 line-bot-sdk
-Flask
+flask
 audioread
 google-generativeai
+pillow
+configparser
