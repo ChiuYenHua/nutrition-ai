@@ -70,4 +70,4 @@ def linebot():
     return 'OK'                                                # 驗證 Webhook 使用，不能省略
 
 if __name__ == "__main__":
-    app.run(port=88)
+    app.run()
