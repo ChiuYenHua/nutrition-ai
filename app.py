@@ -26,7 +26,7 @@ def img_to_text(path):
     model = genai.GenerativeModel('gemini-pro-vision')
 
     try:
-        response = model.generate_content(["tell me the nutrition label", img], stream=True)
+        response = model.generate_content(["tell me the nutrition label （回覆請給我繁體中文）", img], stream=True)
         response.resolve()
         answer = pretty_print_format(response.text)
     except:
